@@ -1,0 +1,6 @@
+pdfminer.six
+nltk==3.9.1
+chromadb==0.5.5
+langchain==0.2.14
+langchain-openai==0.1.22
+langchain-chroma==0.1.2
