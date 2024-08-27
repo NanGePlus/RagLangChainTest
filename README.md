@@ -148,5 +148,20 @@ stream_flag = False
 **调整2:检查URL地址中的IP和PORT是否和main脚本中相同**                  
 url = "http://localhost:8012/v1/chat/completions"                      
 
+## 4.4 文本检索测试(进阶 re-ranker)   
+### （1）检索mainReranker脚本相关配置修改后运行          
+首先通过该地址下载model文件夹，下载完成后将model文件拷贝到项目工程other文件夹下                          
+链接: https://pan.baidu.com/s/12oUh-vOVgSqH1fcmhy33wA?pwd=1234 提取码: 1234                  
+拉取最新的项目代码或将mainReranker.py脚本单独下载下来放入项目中                 
+在使用python mainReranker.py命令启动脚本前，需根据自己的实际情况调整代码中的如下参数：                      
+**调整1:安装依赖包:**                             
+pip install sentence-transformers==3.0.1                                
+**调整2:re-rank模型设置相关 根据自己的实际情况进行调整:**                                        
+RERANK_MODEL = 'other/models/bge-reranker-large'                          
+**调整3:其他参数调整参考4.3中所述相关配置**                      
+### （2）运行apiTest脚本进行检索测试                   
+python apiTest.py                       
+运行成功后，可以查看smith的跟踪情况                                             
+参数调整参考4.3中所述相关配置                   
 
 
