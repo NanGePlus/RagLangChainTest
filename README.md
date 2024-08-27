@@ -149,6 +149,9 @@ stream_flag = False
 url = "http://localhost:8012/v1/chat/completions"                      
 
 ## 4.4 文本检索测试(进阶 re-ranker)   
+re-ranker是一种用于信息检索系统的技术，旨在对初步检索到的结果进行进一步排序，以提高相关性和准确性                      
+通常在一个信息检索任务中，系统会首先根据查询条件从大量文档或数据中初步筛选出一组候选结果          
+然后通过一个re-ranker模型对这些候选结果进行细致的分析和重新排序，以确保最相关的结果排在最前面             
 ### （1）检索mainReranker脚本相关配置修改后运行          
 首先通过该地址下载model文件夹，下载完成后将model文件拷贝到项目工程other文件夹下                          
 链接: https://pan.baidu.com/s/12oUh-vOVgSqH1fcmhy33wA?pwd=1234 提取码: 1234                  
