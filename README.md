@@ -1,3 +1,15 @@
+# 0、相关视频链接
+(1)【流程实操】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享，一份代码搞定多类型大模型集成                        
+https://www.bilibili.com/video/BV1GmWrexE5H/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                
+https://youtu.be/xAEi5CWEIl0                      
+(2)【源码解析】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享，一份代码搞定多类型大模型集成                                   
+https://www.bilibili.com/video/BV1ajsJecEk8/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                   
+https://youtu.be/ptrCo8b-wM0               
+(3)【检索进阶Re-ranker】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享                   
+https://www.bilibili.com/video/BV19tsteREYx/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                       
+https://youtu.be/M_e-XT3x5OA                                  
+
+
 # 1、基础概念
 ## 1.1 RAG定义及技术方案架构
 ### （1）RAG定义
