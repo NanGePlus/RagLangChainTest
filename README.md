@@ -6,9 +6,12 @@ https://youtu.be/xAEi5CWEIl0
 https://www.bilibili.com/video/BV1ajsJecEk8/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                   
 https://youtu.be/ptrCo8b-wM0               
 (3)【检索进阶Re-ranker】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享                   
-https://www.bilibili.com/video/BV19tsteREYx/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                       
-https://youtu.be/M_e-XT3x5OA                                  
-
+https://www.bilibili.com/video/BV19tsteREYx/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                                  
+https://youtu.be/M_e-XT3x5OA                          
+(4)【进阶-PDF表格预处理】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享                                         
+https://www.bilibili.com/video/BV1c7sueSEZe/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                                                      
+https://youtu.be/Nhal2EswD9o                                             
+            
 
 # 1、基础概念
 ## 1.1 RAG定义及技术方案架构
