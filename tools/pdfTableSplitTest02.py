@@ -3,6 +3,7 @@
 # pip install pdfplumber
 # pip install "camelot-py[cv]"
 # pip install PyPDF2==2.12.1
+# pip install tabulate
 # pip install pandas
 # pip install openai
 # 在使用camelot做处理需要ghostscript
