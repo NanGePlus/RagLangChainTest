@@ -113,8 +113,8 @@ if __name__ == "__main__":
         ],
     )
 
-    # 三次不同对话测试
-    # 第一次请求，用户ID为123，会话ID为123。询问模型 "hi im bob!"
+    # 四次不同对话测试
+    # 第一次请求，用户ID为123，会话ID为123。询问模型"你好，我是NanGe!"
     response1 = with_message_history.invoke(
         {"language": "中文", "query": "你好，我是NanGe!"},
         config={"configurable": {"user_id": "123", "conversation_id": "123"}},
