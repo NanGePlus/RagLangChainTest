@@ -191,4 +191,11 @@ python apiTest.py
 测试:运行tools文件夹下的pdfTableSplitTest01.py,使用的测试图片为input文件夹下的“健康档案(含表格01).pdf”         
 ### （2）解决方案思路2     
 流程:PDF文本提取->PDF表格检测和提取->使用大模型将表格转换为自然语言描述->合并文本和表格描述                    
-测试:运行tools文件夹下的pdfTableSplitTest02.py,使用的测试图片为input文件夹下的“健康档案(含表格02).pdf”   
+测试:运行tools文件夹下的pdfTableSplitTest02.py,使用的测试图片为input文件夹下的“健康档案(含表格02).pdf”          
+
+## 4.6 文本检索测试(进阶3 对话中添加历史消息)          
+### （1）先进行一个小的验证测试                        
+使用LangChain框架中提供的方法进行测试    
+运行test文件夹下的memoryTest.py脚本            
+### （2）集成到工程项目     
+把功能集成到main脚本中     
