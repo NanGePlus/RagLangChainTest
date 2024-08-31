@@ -10,7 +10,10 @@ https://www.bilibili.com/video/BV19tsteREYx/?vd_source=30acb5331e4f5739ebbad50f7
 https://youtu.be/M_e-XT3x5OA                          
 (4)【进阶-PDF表格预处理】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享                                         
 https://www.bilibili.com/video/BV1c7sueSEZe/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                                                      
-https://youtu.be/Nhal2EswD9o                                             
+https://youtu.be/Nhal2EswD9o             
+(5)【进阶-加载历史对话记忆(1)】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享            
+https://www.bilibili.com/video/BV1GdnfeAEEe/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                      
+https://youtu.be/wWx986JVXpI                    
             
 
 # 1、基础概念
