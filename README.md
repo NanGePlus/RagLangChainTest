@@ -196,9 +196,11 @@ python apiTest.py
 流程:PDF文本提取->PDF表格检测和提取->使用大模型将表格转换为自然语言描述->合并文本和表格描述                    
 测试:运行tools文件夹下的pdfTableSplitTest02.py,使用的测试图片为input文件夹下的“健康档案(含表格02).pdf”          
 
-## 4.6 文本检索测试(进阶3 添加历史对话记忆)          
-### （1）先进行一个小的验证测试                        
-使用LangChain框架中提供的方法进行测试    
-运行test文件夹下的memoryTest.py脚本            
+## 4.6 文本检索测试(进阶3 添加历史对话记忆)    
+### （1）先进行一个小的验证测试                       
+使用LangChain框架中提供的方法进行测试        
+运行test文件夹下的memoryTest.py脚本                                  
 ### （2）集成到工程项目     
-把功能集成到main脚本中     
+流程:运行vectorSaveTest.py脚本灌库->运行mainMemry.py脚本启动服务->运行apiMemoryTest.py脚本测试                                     
+**注意1:** mainMemry.py、apiMemoryTest.py脚本均在原脚本基础上进行迭代                
+**注意2:** mainMemry.py脚本中使用prompt_template_memory.txt模版文件         
