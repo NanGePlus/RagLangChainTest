@@ -1,20 +1,23 @@
 # 0、相关视频链接
-(1)【流程实操】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享，一份代码搞定多类型大模型集成                        
-https://www.bilibili.com/video/BV1GmWrexE5H/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                
-https://youtu.be/xAEi5CWEIl0                      
-(2)【源码解析】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享，一份代码搞定多类型大模型集成                                   
-https://www.bilibili.com/video/BV1ajsJecEk8/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                   
-https://youtu.be/ptrCo8b-wM0               
-(3)【检索进阶Re-ranker】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享                   
-https://www.bilibili.com/video/BV19tsteREYx/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                                  
-https://youtu.be/M_e-XT3x5OA                          
-(4)【进阶-PDF表格预处理】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享                                         
+(1)【大模型应用开发基础】集成开发环境搭建Anaconda+PyCharm                       
+https://www.bilibili.com/video/BV1q9HxeEEtT/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                                  
+https://youtu.be/myVgyitFzrA                                                
+(2)【流程实操】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享，一份代码搞定多类型大模型集成                                   
+https://www.bilibili.com/video/BV1ryHxesEHs/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                                          
+https://youtu.be/xAEi5CWEIl0                                    
+(3)【源码解析】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享，一份代码搞定多类型大模型集成                                                 
+https://www.bilibili.com/video/BV1JUHxeQEc7/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                       
+https://youtu.be/ptrCo8b-wM0                 
+(4)【检索进阶Re-ranker】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享                        
+https://www.bilibili.com/video/BV19tsteREYx/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                                             
+https://youtu.be/M_e-XT3x5OA                                    
+(5)【进阶-PDF表格预处理】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享                                         
 https://www.bilibili.com/video/BV1c7sueSEZe/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                                                      
 https://youtu.be/Nhal2EswD9o             
-(5)【进阶-加载历史对话记忆(1)】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享            
+(6)【进阶-加载历史对话记忆(1)】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享            
 https://www.bilibili.com/video/BV1GdnfeAEEe/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                      
 https://youtu.be/wWx986JVXpI   
-(6)【进阶-加载历史对话记忆(2)-集成到原项目中】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享                             
+(7)【进阶-加载历史对话记忆(2)-集成到原项目中】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享                             
 https://www.bilibili.com/video/BV1bQHPegE3o/?vd_source=30acb5331e4f5739ebbad50f7cc6b949           
 https://youtu.be/PPpfONOj5jI                     
             
@@ -49,10 +52,10 @@ LangSmith是一个用于构建生产级LLM应用程序的平台。通过它，�
 
 # 2、前期准备工作
 ## 2.1 anaconda、pycharm 安装   
-anaconda:提供python虚拟环境，官网下载对应系统版本的安装包安装即可           
-pycharm:提供集成开发环境，官网下载社区版本安装包安装即可            
-可参考如下视频进行安装：              
-https://www.bilibili.com/video/BV1tQWje1ErT/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                     
+anaconda:提供python虚拟环境，官网下载对应系统版本的安装包安装即可                             
+pycharm:提供集成开发环境，官网下载社区版本安装包安装即可                           
+可参考如下视频进行安装【大模型应用开发基础】集成开发环境搭建Anaconda+PyCharm                                        
+https://www.bilibili.com/video/BV1q9HxeEEtT/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                                            
 
 ## 2.2 OneAPI安装、部署、创建渠道和令牌 
 ### （1）OneAPI是什么
@@ -71,8 +74,10 @@ http://IP:3000/
 
 ## 2.3 openai使用方案            
 国内无法直接访问，可以使用代理的方式，具体代理方案自己选择                   
-可以参考这个视频《GraphRAG最新版本0.3.0对比实战评测-使用gpt-4o-mini和qwen-plus分别构建近2万字文本知识索引+本地/全局检索对比测试》中推荐的方式：                      
-https://www.bilibili.com/video/BV1zkWse9Enb/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                           
+可以参考这期视频:                   
+【GraphRAG最新版本0.3.0对比实战评测】使用gpt-4o-mini和qwen-plus分别构建近2万字文本知识索引+本地/全局检索对比测试                   
+https://www.bilibili.com/video/BV1maHxeYEB1/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                     
+https://youtu.be/iXfsJrXCEwA                                               
 
 ## 2.4 langsmith配置         
 直接在langsmith官网设置页中申请APIKey(这里可以选择使用也可以不使用)             
@@ -82,7 +87,8 @@ https://smith.langchain.com/o/93f0b841-d320-5df9-a9a0-25be027a4c09/settings
 # 3、项目初始化
 ## 3.1 下载源码
 GitHub中下载工程文件到本地，下载地址如下：                
-https://github.com/NanGePlus/RagLangchainTest             
+https://github.com/NanGePlus/RagLangchainTest                               
+https://gitee.com/NanGePlus/RagLangchainTest                                   
 
 ## 3.2 构建项目
 使用pycharm构建一个项目，为项目配置虚拟python环境               
